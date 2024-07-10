@@ -2,10 +2,10 @@
 Example of testing with pytest and python
 
 
-# create new branch in git
-## git checkout -b develop
-## git push origin develop
-## git branch --set-upstream-to=origin/develop develop
+# Create new branch in git
+1. git checkout -b develop
+1. git push origin develop
+1. git branch --set-upstream-to=origin/develop develop
 
 # list branch in git local
 ## git branch
