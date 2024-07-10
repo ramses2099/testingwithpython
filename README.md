@@ -1,26 +1,22 @@
 # testingwithpython
 Example of testing with pytest and python
 
-
 # Create new branch in git
 1. git checkout -b develop
 1. git push origin develop
 1. git branch --set-upstream-to=origin/develop develop
+1. git branch
 
-# list branch in git local
-## git branch
+# Create virtual env
+1. virtualenv env
+1. active virtual env
+1. source ./env/bin/activate
+1. pip list
+1. pip install --upgrade pip
+1. pip install pytest
 
-# create virtual env
-## virtualenv env
-## active virtual env
-### source ./env/bin/activate
-### pip list
-### pip install --upgrade pip
-### pip install pytest
-
-# add conftest file 'conftest.py'
-## pytest_plugins = ['MODULE NAME']
-
-# create folter tests
-## add file test_module_name.py
-## run command pytest .
+# Add conftest file 'conftest.py'
+1. pytest_plugins = ['MODULE NAME']
+1. create folter tests
+1. add file test_module_name.py
+1. run command pytest .
