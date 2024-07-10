@@ -1,4 +1,4 @@
-# testingwithpython
+# Testing with python and pytest
 Example of testing with pytest and python
 
 # Create new branch in git
